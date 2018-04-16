@@ -1,0 +1,23 @@
+{
+    "name": "kawanamiyuu/zoosan",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "psr/http-server-middleware": "^1.0",
+        "react/http": "^0.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kawanamiyuu\\Zoosan\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kawanamiyuu\\Zoosan\\": "example"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
